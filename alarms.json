@@ -12,7 +12,7 @@
 			"channel":"#general"
 		},
 		{
-			"active": "True",
+			"active": "False",
 			"type":"twitter",
 			"consumer_key": "",
 			"consumer_secret": "",
