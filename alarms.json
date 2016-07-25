@@ -12,6 +12,14 @@
 			"channel":"#general"
 		},
 		{
+			"active": "True",
+			"type":"twitter",
+			"consumer_key": "",
+			"consumer_secret": "",
+			"access_token": "",
+			"access_token_secret": ""
+		},
+		{
 			"active": "False",
 			"type":"twilio",
 			"account_sid":"",

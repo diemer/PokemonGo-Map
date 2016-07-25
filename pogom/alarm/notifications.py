@@ -28,6 +28,8 @@ class Notifications:
 						self.alarms.append(Slack_Alarm(alarm['api_key'], alarm['channel']))
 					if alarm['type'] == 'twilio' :
 						self.alarms.append(Twilio_Alarm(alarm['account_sid'], alarm['auth_token'], alarm['to_number'], alarm['from_number']))
+					if alarm['type'] == 'twitter' :
+						self.alarms.append(Twitter_Alarm(alarm['consumer_key'], alarm['consumer_secret'], alarm['access_token'], alarm['access_token_secret']))
 				else:
 					log.info("Invalid alarm type specified: " + alarm['type'])
 			
