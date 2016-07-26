@@ -8,6 +8,7 @@ log = logging.getLogger(__name__)
 from pb_alarm import PB_Alarm
 from slack_alarm import Slack_Alarm
 from twilio_alarm import Twilio_Alarm
+from twitter_alarm import Twitter_Alarm
 from ..utils import get_pokemon_name
 
 class Notifications:
